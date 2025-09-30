@@ -4,7 +4,7 @@ public class Record {
     private String id;
     private String name;
     private int age;
-    // constructor vacío requerido por Jackson
+    // void constructor
     public Record() {}
     public Record(String id, String name, int age) {
         this.id = id; this.name = name; this.age = age;
